@@ -1,0 +1,20 @@
+*{box-sizing: border-box;}
+html, body{font-family: "Helvetica Neue", Helvetica; padding: 0; margin: 0;}
+.block{width:100%; min-height:250px;}
+#site-header{background-color:aqua;}
+#splash-content{background-color:yellow; height:1000px;}
+#site-footer{background-color:black;}
+.actions{background-color: gray; overflow: auto;}
+.logo{margin:0; float: left;}
+.button.button-active{display: block;}
+.actions > .button{float: right;}
+.brand{text-align: center; padding: 3em 0;}
+.brand > h1 {margin: 0; line-height: 1;} 
+.brand > h2 {font-weight: normal; font-family: Georgia, Times, serif; margin:0; font-size:1em;} 
+.list-inline{margin:0; padding: 0; list-style-type: none; border-top: 3px solid #999999;}
+.list-inline > li {display: inline-block; padding-right: 1em; color: #999999;}
+.list-inline > .active{color: #000000; border-top: 3px solid black;}
+.column{float: left; margin: 0; height:250px;}
+.one-third{width:33.33%; background-color: orange; overflow: hidden;}
+.two-third{width:66.66%; background-color: chartreuse; overflow: hidden;}
+.row{overflow: auto;}
